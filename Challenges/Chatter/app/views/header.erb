@@ -1,0 +1,20 @@
+<header>
+	<div id="logo">
+		<a href='/'>Chitter</a>
+	<a href="/messages/new" class="button">Add message</a>
+	</div>
+	<% if current_user %>
+	<div id="signup">
+		Welcome, <%= current_user.name %>
+		<form method="post" action="/sessions">
+			<input type="hidden" name="_method" value="delete">
+			<input type="submit" value="Sign out" class="button">
+		</form>
+	</div>
+	<% else %>
+		<div id="signup">
+		<a href='/sessions/new' id='sign-in' class='button'>Sign in!</a>
+		<a href='/users/new' id='sign-up' class='button'>Sign up!</a>
+		</div>
+	<% end %>
+</header>
