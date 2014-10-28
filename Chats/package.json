@@ -1,0 +1,23 @@
+{
+  "name": "Chats",
+  "version": "1.0.0",
+  "description": "My first socket.io app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camillavk/Chat.git"
+  },
+  "author": "camillavk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camillavk/Chat/issues"
+  },
+  "homepage": "https://github.com/camillavk/Chat",
+  "dependencies": {
+    "express": "^4.10.0",
+    "socket.io": "^1.2.0"
+  }
+}
