@@ -1,0 +1,23 @@
+{
+  "name": "FileEditor",
+  "version": "1.0.0",
+  "description": "Multiple people file editor (realtime)",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camillavk/FileEditor.git"
+  },
+  "author": "camillavk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camillavk/FileEditor/issues"
+  },
+  "homepage": "https://github.com/camillavk/FileEditor",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
+}
