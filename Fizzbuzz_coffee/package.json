@@ -1,0 +1,15 @@
+{
+  "name": "Fizzbuzz_coffee",
+  "version": "1.0.0",
+  "description": "fizzbuzz in coffeescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "camillavk",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
+}
